@@ -109,6 +109,7 @@
             </div>
         </div>
     </div>
+
     <button type="button" class="btn btn-primary" onclick="reset()">Reset</button>
 
 </body>
@@ -168,11 +169,11 @@
   
          }
 
-         function reset() {
+    
+     function reset() {
             shakeCount = 0;
             birdLocation = Math.floor(Math.random() * 25);
             document.getElementById("shakes").innerHTML = "Number of shakes is " + shakeCount;
         }
-
   </script>
 </html>
